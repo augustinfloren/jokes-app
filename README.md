@@ -1,4 +1,4 @@
-# jokes-app
+# jokes App
 Projet d'entrée CDA Simplon
 
 ## Liens
