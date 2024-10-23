@@ -4,8 +4,7 @@ Projet d'entrée CDA Simplon
 ## Liens
 
 ### API
-[repo](https://github.com/augustinfloren/jokes-api) \
-[render : https://jokes-api-0x6y.onrender.com](https://jokes-api-0x6y.onrender.com)
+[[repo](https://github.com/augustinfloren/jokes-api)](https://github.com/augustinfloren/jokes-api) 
 
 ### Swagger
 https://jokes-api-0x6y.onrender.com/api-docs
