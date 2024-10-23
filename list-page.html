@@ -3,27 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/img/favicon.png">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="App de blagues carambar">
+    <script></script>
     <title>Carambar</title>
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="fixed">
             <a class="logo" href="/">
                 <img src="./img/carambar.png" alt="Logo de Carambar">
             </a>
             <a class="list-page-link" href="/list-page.html">Liste des blagues</a>
         </header>
-        <section>
-            <div class="description-container">
-                <h2 class="description random-joke"></h2>
-            </div>
-            <button onclick="getRandomJoke()">Trouver une blague</button>
+        <section class="jokes-section">
         </section>
     </div>
-    <script src="/scripts/landing.js"></script>
+    <script src="/scripts/list.js"></script>
 </body>
 </html>
