@@ -1,0 +1,65 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(82, 14, 14);
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem 3rem;
+    background-color: brown;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.list-page-link {
+    border-radius: 50px;
+    padding: 8px 15px;
+    font-size: large;
+    text-decoration: none;
+    color: brown;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+header a {
+    transition: transform 0.2s ease-in-out;
+}
+
+header a:hover {
+    transform: scale(1.1);
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joke-container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    color: yellow;
+    padding: 30px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+.joke {
+    text-align: center;
+    line-height: 20pt;
+}
+
+
+
+
+
+
