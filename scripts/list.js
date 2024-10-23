@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
             data.forEach(joke => {
                 const jokeTitle = document.createElement("a");
                 jokeTitle.classList.add("joke-title");
-                jokeTitle.setAttribute("href", `/joke-page.html?id=${joke.id}`);
+                jokeTitle.setAttribute("href", `/jokes-app/joke-page.html?id=${joke.id}`);
                 jokeTitle.textContent = joke.title;
                 section.appendChild(jokeTitle);
             });
