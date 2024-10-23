@@ -13,6 +13,7 @@ window.getRandomJoke = function() {
         })
         .catch(error => {
             console.error('problème avec la requête :', error);
+            joke.textContent = error.message;
         })
 }
 
